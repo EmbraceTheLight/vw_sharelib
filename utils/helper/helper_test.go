@@ -3,9 +3,9 @@ package helper_test
 import (
 	"errors"
 	kerr "github.com/go-kratos/kratos/v2/errors"
+	"github.com/go-videoweb/vw_sharelib/utils/helper"
 	"github.com/spewerspew/spew"
 	"testing"
-	"util/helper"
 )
 
 func TestHandleError(t *testing.T) {

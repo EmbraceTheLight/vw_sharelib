@@ -2,10 +2,10 @@ package resolver_test
 
 import (
 	"context"
+	"github.com/go-videoweb/vw_sharelib/utils/resolver"
 	"github.com/spewerspew/spew"
 	"github.com/stretchr/testify/require"
 	"testing"
-	"util/resolver"
 )
 
 func TestGetAddress(t *testing.T) {

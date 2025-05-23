@@ -2,9 +2,9 @@ package ffmpeg_test
 
 import (
 	"fmt"
+	"github.com/go-videoweb/vw_sharelib/utils/ffmpeg"
 	"github.com/stretchr/testify/require"
 	"testing"
-	"util/ffmpeg"
 )
 
 func TestConvertToMP4(t *testing.T) {
